@@ -124,7 +124,7 @@ bool application_impl::init() {
         }
     }
 
-    std::string configuration_path;
+    std::string configuration_path = path_;
 
     // load configuration from module
     std::string config_module = "";
